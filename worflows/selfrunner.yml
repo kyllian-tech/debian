@@ -16,7 +16,7 @@ jobs:
       run: echo "Test de fonctionnement du Runner!"
 
     - name: tests de commandes 
-      run: 
+      run: |
         echo "Runner OK"
         hostname
         whoami
